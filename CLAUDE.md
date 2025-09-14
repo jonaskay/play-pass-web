@@ -13,6 +13,7 @@ This is an Astro web application using TypeScript with strict configuration. The
 - `npm run preview` - Preview production build locally
 - `npm run astro check` - Run Astro's type checking and diagnostics
 - `npm run astro ...` - Access other Astro CLI commands
+- `npm run test:e2e` - Run Playwright tests
 
 ## Architecture
 
