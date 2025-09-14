@@ -40,6 +40,14 @@ main() {
         echo "⚠️ Warning: package.json not found, skipping dependency installation"
     fi
 
+    if [ -f ".claude/settings.local.json" ]; then
+        mkdir -p "${worktree_path}/.claude"
+        cp .claude/settings.local.json "${worktree_path}/.claude/"
+        echo "✅ Copied .claude/settings.local.json to worktree"
+    else
+        echo "⚠️ Warning: .claude/settings.local.json not found, skipping copy"
+    fi
+
     echo "Opening worktree with Cursor..."
     cursor "$worktree_path"
     echo "✅ Opened in Cursor"
