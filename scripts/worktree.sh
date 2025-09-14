@@ -1,6 +1,6 @@
 #!/bin/bash
 
-# worktree.sh - Create a new git worktree with copied dependencies
+# worktree.sh - Create a new git worktree with fresh dependency installation
 # Usage: ./worktree.sh <branch-name>
 
 set -e
@@ -28,19 +28,21 @@ main() {
 
     echo "Creating git worktree and branch..."
     git worktree add -b "$branch_name" "$worktree_path"
-    echo "✓ Worktree created successfully"
+    echo "✅ Worktree created successfully"
 
-    if [ -d "node_modules" ]; then
-        echo "Copying node_modules directory (this may take a while)..."
-        cp -r node_modules "${worktree_path}/"
-        echo "✓ node_modules copied"
+    if [ -f "package.json" ]; then
+        echo "Installing dependencies in worktree..."
+        cd "$worktree_path"
+        npm install --silent
+        echo "✅ Dependencies installed"
+        cd - > /dev/null
     else
-        echo "⚠️  Warning: node_modules directory not found, skipping copy"
+        echo "⚠️ Warning: package.json not found, skipping dependency installation"
     fi
 
     echo "Opening worktree with Cursor..."
     cursor "$worktree_path"
-    echo "✓ Opened in Cursor"
+    echo "✅ Opened in Cursor"
 
     echo "----------------------------------------"
     echo "Worktree setup complete!"
