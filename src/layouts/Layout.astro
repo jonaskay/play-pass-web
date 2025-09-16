@@ -13,18 +13,9 @@ import Footer from "../components/Footer.astro";
 		<meta name="generator" content={Astro.generator} />
 		<title>Astro Basics</title>
 	</head>
-	<body>
+	<body class="bg-neutral-100 dark:bg-neutral-900">
 		<Header />
 		<slot />
 		<Footer />
 	</body>
 </html>
-
-<style>
-	html,
-	body {
-		margin: 0;
-		width: 100%;
-		height: 100%;
-	}
-</style>
