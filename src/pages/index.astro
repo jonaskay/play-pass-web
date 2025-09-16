@@ -12,7 +12,7 @@ const sortedGames = boardGames.sort((a, b) => b.score - a.score);
 			<ol>
 				{sortedGames.map((game) => (
 					<li>
-						{game.name} - {Math.round(game.score * 100)}%
+						<a href={`/boardgame/${game.id}`}>{game.name}</a> - {Math.round(game.score * 100)}%
 					</li>
 				))}
 			</ol>

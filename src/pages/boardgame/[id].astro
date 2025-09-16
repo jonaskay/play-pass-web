@@ -1,0 +1,32 @@
+---
+import Layout from '../../layouts/Layout.astro';
+import boardGames from '../../../fixtures/board-games.json';
+
+export async function getStaticPaths() {
+  return boardGames.map((game) => ({
+    params: { id: game.id.toString() },
+    props: { game },
+  }));
+}
+
+const { game } = Astro.props;
+const sortedGames = boardGames.sort((a, b) => b.score - a.score);
+const rank = sortedGames.findIndex(g => g.id === game.id) + 1;
+---
+
+<Layout>
+	<div class="p-8">
+		<main class="prose dark:prose-invert mx-auto">
+			<h1>{game.name}</h1>
+			<section>
+				<h2>Game Statistics</h2>
+				<dl>
+					<dt>Current Rank:</dt>
+					<dd>{rank}</dd>
+					<dt>Current Score:</dt>
+					<dd>{Math.round(game.score * 100)}%</dd>
+				</dl>
+			</section>
+		</main>
+	</div>
+</Layout>
