@@ -1,0 +1,83 @@
+---
+import type { Page } from "astro";
+import { generatePaginationNumbers } from "./pagination.utils";
+
+interface Props {
+  page: Page;
+}
+
+const { page } = Astro.props;
+
+const paginationNumbers = generatePaginationNumbers(
+  page.currentPage,
+  page.lastPage,
+);
+---
+
+<nav aria-labelledby="pagination" role="navigation">
+  <h2 id="pagination" class="sr-only">Pagination</h2>
+  <ul class="pagination-list">
+    {
+      page.url.prev && (
+        <li>
+          <a href={page.url.prev}>Previous</a>
+        </li>
+      )
+    }
+    {
+      page.url.first && !paginationNumbers.includes(1) && (
+        <>
+          <li>
+            <a href={page.url.first} title="First">
+              1
+            </a>
+          </li>
+          <li>…</li>
+        </>
+      )
+    }
+
+    {
+      paginationNumbers.map((num) => {
+        const isCurrent = num === page.currentPage;
+
+        return (
+          <li>
+            {isCurrent ? (
+              <span aria-current="page">{num}</span>
+            ) : (
+              <a href={`/ranking/${num}`}>{num}</a>
+            )}
+          </li>
+        );
+      })
+    }
+
+    {
+      page.url.last && !paginationNumbers.includes(page.lastPage) && (
+        <>
+          <li>…</li>
+          <li>
+            <a href={page.url.last} title="Last">
+              {page.lastPage}
+            </a>
+          </li>
+        </>
+      )
+    }
+
+    {
+      page.url.next && (
+        <li>
+          <a href={page.url.next}>Next</a>
+        </li>
+      )
+    }
+  </ul>
+</nav>
+
+<style>
+  li span[aria-current="page"] {
+    font-weight: bold;
+  }
+</style>

@@ -1,0 +1,1102 @@
+[
+  {
+    "id": 1,
+    "name": "Crystal Realms",
+    "score": 0.94
+  },
+  {
+    "id": 2,
+    "name": "Dragon's Legacy: First Dawn",
+    "score": 0.92
+  },
+  {
+    "id": 3,
+    "name": "Galactic Colonies",
+    "score": 0.88
+  },
+  {
+    "id": 4,
+    "name": "Mystic Feathers",
+    "score": 0.86
+  },
+  {
+    "id": 5,
+    "name": "Emerald Tiles",
+    "score": 0.84
+  },
+  {
+    "id": 6,
+    "name": "Journey Express",
+    "score": 0.82
+  },
+  {
+    "id": 7,
+    "name": "Trade Winds",
+    "score": 0.8
+  },
+  {
+    "id": 8,
+    "name": "Phantom Archipelago",
+    "score": 0.89
+  },
+  {
+    "id": 9,
+    "name": "Five Kingdoms Clash",
+    "score": 0.85
+  },
+  {
+    "id": 10,
+    "name": "Emperor of Neo City",
+    "score": 0.76
+  },
+  {
+    "id": 11,
+    "name": "Gemstone Markets",
+    "score": 0.78
+  },
+  {
+    "id": 12,
+    "name": "Secret Agents",
+    "score": 0.81
+  },
+  {
+    "id": 13,
+    "name": "Sakura Town",
+    "score": 0.71
+  },
+  {
+    "id": 14,
+    "name": "Iron Harvest",
+    "score": 0.87
+  },
+  {
+    "id": 15,
+    "name": "Ancient Groves",
+    "score": 0.83
+  },
+  {
+    "id": 16,
+    "name": "Fabric Master",
+    "score": 0.79
+  },
+  {
+    "id": 17,
+    "name": "Steel: Industrial Age",
+    "score": 0.91
+  },
+  {
+    "id": 18,
+    "name": "Woodland Empire",
+    "score": 0.77
+  },
+  {
+    "id": 19,
+    "name": "Caribbean Trade",
+    "score": 0.75
+  },
+  {
+    "id": 20,
+    "name": "Nature's Pattern",
+    "score": 0.73
+  },
+  {
+    "id": 21,
+    "name": "Cosmic Architects",
+    "score": 0.95
+  },
+  {
+    "id": 22,
+    "name": "Sunset Harbor",
+    "score": 0.72
+  },
+  {
+    "id": 23,
+    "name": "Mountain Quest",
+    "score": 0.88
+  },
+  {
+    "id": 24,
+    "name": "City of Echoes",
+    "score": 0.9
+  },
+  {
+    "id": 25,
+    "name": "Pirate's Fortune",
+    "score": 0.74
+  },
+  {
+    "id": 26,
+    "name": "Clockwork Empire",
+    "score": 0.86
+  },
+  {
+    "id": 27,
+    "name": "Desert Nomads",
+    "score": 0.69
+  },
+  {
+    "id": 28,
+    "name": "Storm Champions",
+    "score": 0.93
+  },
+  {
+    "id": 29,
+    "name": "Hidden Valley",
+    "score": 0.81
+  },
+  {
+    "id": 30,
+    "name": "Neon Streets",
+    "score": 0.77
+  },
+  {
+    "id": 31,
+    "name": "Merchant Voyagers",
+    "score": 0.85
+  },
+  {
+    "id": 32,
+    "name": "Crystal Caverns",
+    "score": 0.7
+  },
+  {
+    "id": 33,
+    "name": "Sky Islands",
+    "score": 0.89
+  },
+  {
+    "id": 34,
+    "name": "Golden Age",
+    "score": 0.76
+  },
+  {
+    "id": 35,
+    "name": "Forest Guardians",
+    "score": 0.82
+  },
+  {
+    "id": 36,
+    "name": "Robot Factory",
+    "score": 0.68
+  },
+  {
+    "id": 37,
+    "name": "Starship Builders",
+    "score": 0.91
+  },
+  {
+    "id": 38,
+    "name": "Ancient Scrolls",
+    "score": 0.78
+  },
+  {
+    "id": 39,
+    "name": "Ocean Depths",
+    "score": 0.84
+  },
+  {
+    "id": 40,
+    "name": "Magic Academy",
+    "score": 0.73
+  },
+  {
+    "id": 41,
+    "name": "Wild West Express",
+    "score": 0.87
+  },
+  {
+    "id": 42,
+    "name": "Frozen Kingdom",
+    "score": 0.75
+  },
+  {
+    "id": 43,
+    "name": "Solar System",
+    "score": 0.92
+  },
+  {
+    "id": 44,
+    "name": "Viking Legends",
+    "score": 0.8
+  },
+  {
+    "id": 45,
+    "name": "Jungle Expedition",
+    "score": 0.71
+  },
+  {
+    "id": 46,
+    "name": "Moon Base Alpha",
+    "score": 0.88
+  },
+  {
+    "id": 47,
+    "name": "Castle Defense",
+    "score": 0.79
+  },
+  {
+    "id": 48,
+    "name": "Time Travelers",
+    "score": 0.83
+  },
+  {
+    "id": 49,
+    "name": "Underground Cities",
+    "score": 0.67
+  },
+  {
+    "id": 50,
+    "name": "Phoenix Rising",
+    "score": 0.94
+  },
+  {
+    "id": 51,
+    "name": "Alien Worlds",
+    "score": 0.72
+  },
+  {
+    "id": 52,
+    "name": "Royal Court",
+    "score": 0.86
+  },
+  {
+    "id": 53,
+    "name": "Steam Revolution",
+    "score": 0.81
+  },
+  {
+    "id": 54,
+    "name": "Island Paradise",
+    "score": 0.74
+  },
+  {
+    "id": 55,
+    "name": "Dragon Riders",
+    "score": 0.9
+  },
+  {
+    "id": 56,
+    "name": "Space Station",
+    "score": 0.78
+  },
+  {
+    "id": 57,
+    "name": "Arctic Explorer",
+    "score": 0.85
+  },
+  {
+    "id": 58,
+    "name": "Wizard's Tower",
+    "score": 0.69
+  },
+  {
+    "id": 59,
+    "name": "Merchant Guild",
+    "score": 0.87
+  },
+  {
+    "id": 60,
+    "name": "Lost Temple",
+    "score": 0.76
+  },
+  {
+    "id": 61,
+    "name": "Cyber Wars",
+    "score": 0.82
+  },
+  {
+    "id": 62,
+    "name": "Golden Compass",
+    "score": 0.7
+  },
+  {
+    "id": 63,
+    "name": "Storm Riders",
+    "score": 0.89
+  },
+  {
+    "id": 64,
+    "name": "Crystal Palace",
+    "score": 0.77
+  },
+  {
+    "id": 65,
+    "name": "Fire Mountains",
+    "score": 0.84
+  },
+  {
+    "id": 66,
+    "name": "Shadow Realm",
+    "score": 0.68
+  },
+  {
+    "id": 67,
+    "name": "Ocean's Edge",
+    "score": 0.91
+  },
+  {
+    "id": 68,
+    "name": "Desert Oasis",
+    "score": 0.75
+  },
+  {
+    "id": 69,
+    "name": "Sky Pirates",
+    "score": 0.88
+  },
+  {
+    "id": 70,
+    "name": "Ancient Ruins",
+    "score": 0.73
+  },
+  {
+    "id": 71,
+    "name": "Robot Uprising",
+    "score": 0.86
+  },
+  {
+    "id": 72,
+    "name": "Moonlight Sonata",
+    "score": 0.79
+  },
+  {
+    "id": 73,
+    "name": "Wild Safari",
+    "score": 0.83
+  },
+  {
+    "id": 74,
+    "name": "Ice Age",
+    "score": 0.67
+  },
+  {
+    "id": 75,
+    "name": "Star Warriors",
+    "score": 0.92
+  },
+  {
+    "id": 76,
+    "name": "Enchanted Forest",
+    "score": 0.71
+  },
+  {
+    "id": 77,
+    "name": "Vampire Chronicles",
+    "score": 0.85
+  },
+  {
+    "id": 78,
+    "name": "Treasure Island",
+    "score": 0.78
+  },
+  {
+    "id": 79,
+    "name": "Future City",
+    "score": 0.81
+  },
+  {
+    "id": 80,
+    "name": "Mountain Peaks",
+    "score": 0.74
+  },
+  {
+    "id": 81,
+    "name": "Cosmic Journey",
+    "score": 0.9
+  },
+  {
+    "id": 82,
+    "name": "River Rapids",
+    "score": 0.76
+  },
+  {
+    "id": 83,
+    "name": "Knight's Honor",
+    "score": 0.87
+  },
+  {
+    "id": 84,
+    "name": "Mystic Lands",
+    "score": 0.69
+  },
+  {
+    "id": 85,
+    "name": "Space Colonies",
+    "score": 0.88
+  },
+  {
+    "id": 86,
+    "name": "Dungeon Crawlers",
+    "score": 0.72
+  },
+  {
+    "id": 87,
+    "name": "Wind Runners",
+    "score": 0.84
+  },
+  {
+    "id": 88,
+    "name": "Golden Empire",
+    "score": 0.8
+  },
+  {
+    "id": 89,
+    "name": "Flame Warriors",
+    "score": 0.86
+  },
+  {
+    "id": 90,
+    "name": "Crystal Shores",
+    "score": 0.75
+  },
+  {
+    "id": 91,
+    "name": "Storm Chasers",
+    "score": 0.89
+  },
+  {
+    "id": 92,
+    "name": "Hidden Fortress",
+    "score": 0.77
+  },
+  {
+    "id": 93,
+    "name": "Sky Castle",
+    "score": 0.83
+  },
+  {
+    "id": 94,
+    "name": "Desert Storm",
+    "score": 0.7
+  },
+  {
+    "id": 95,
+    "name": "Ocean Voyagers",
+    "score": 0.91
+  },
+  {
+    "id": 96,
+    "name": "Forest Kingdom",
+    "score": 0.73
+  },
+  {
+    "id": 97,
+    "name": "Fire Dragons",
+    "score": 0.87
+  },
+  {
+    "id": 98,
+    "name": "Ice Palace",
+    "score": 0.79
+  },
+  {
+    "id": 99,
+    "name": "Star Empire",
+    "score": 0.85
+  },
+  {
+    "id": 100,
+    "name": "Shadow Knights",
+    "score": 0.68
+  },
+  {
+    "id": 101,
+    "name": "Mystic Warriors",
+    "score": 0.92
+  },
+  {
+    "id": 102,
+    "name": "Golden Coast",
+    "score": 0.74
+  },
+  {
+    "id": 103,
+    "name": "Thunder Valley",
+    "score": 0.88
+  },
+  {
+    "id": 104,
+    "name": "Crystal Mountains",
+    "score": 0.76
+  },
+  {
+    "id": 105,
+    "name": "Wind Walkers",
+    "score": 0.82
+  },
+  {
+    "id": 106,
+    "name": "Fire Islands",
+    "score": 0.71
+  },
+  {
+    "id": 107,
+    "name": "Storm Lords",
+    "score": 0.89
+  },
+  {
+    "id": 108,
+    "name": "Ice Warriors",
+    "score": 0.78
+  },
+  {
+    "id": 109,
+    "name": "Star Hunters",
+    "score": 0.84
+  },
+  {
+    "id": 110,
+    "name": "Shadow Realm",
+    "score": 0.67
+  },
+  {
+    "id": 111,
+    "name": "Golden Dragons",
+    "score": 0.9
+  },
+  {
+    "id": 112,
+    "name": "Ocean Masters",
+    "score": 0.75
+  },
+  {
+    "id": 113,
+    "name": "Fire Guardians",
+    "score": 0.86
+  },
+  {
+    "id": 114,
+    "name": "Ice Legends",
+    "score": 0.73
+  },
+  {
+    "id": 115,
+    "name": "Star Defenders",
+    "score": 0.87
+  },
+  {
+    "id": 116,
+    "name": "Wind Champions",
+    "score": 0.79
+  },
+  {
+    "id": 117,
+    "name": "Crystal Guardians",
+    "score": 0.83
+  },
+  {
+    "id": 118,
+    "name": "Thunder Knights",
+    "score": 0.7
+  },
+  {
+    "id": 119,
+    "name": "Storm Masters",
+    "score": 0.91
+  },
+  {
+    "id": 120,
+    "name": "Ice Dragons",
+    "score": 0.72
+  },
+  {
+    "id": 121,
+    "name": "Fire Lords",
+    "score": 0.88
+  },
+  {
+    "id": 122,
+    "name": "Star Knights",
+    "score": 0.76
+  },
+  {
+    "id": 123,
+    "name": "Wind Masters",
+    "score": 0.84
+  },
+  {
+    "id": 124,
+    "name": "Crystal Warriors",
+    "score": 0.69
+  },
+  {
+    "id": 125,
+    "name": "Thunder Lords",
+    "score": 0.89
+  },
+  {
+    "id": 126,
+    "name": "Storm Dragons",
+    "score": 0.77
+  },
+  {
+    "id": 127,
+    "name": "Ice Masters",
+    "score": 0.85
+  },
+  {
+    "id": 128,
+    "name": "Fire Knights",
+    "score": 0.71
+  },
+  {
+    "id": 129,
+    "name": "Star Lords",
+    "score": 0.87
+  },
+  {
+    "id": 130,
+    "name": "Wind Dragons",
+    "score": 0.73
+  },
+  {
+    "id": 131,
+    "name": "Crystal Knights",
+    "score": 0.86
+  },
+  {
+    "id": 132,
+    "name": "Thunder Warriors",
+    "score": 0.78
+  },
+  {
+    "id": 133,
+    "name": "Storm Knights",
+    "score": 0.82
+  },
+  {
+    "id": 134,
+    "name": "Ice Lords",
+    "score": 0.68
+  },
+  {
+    "id": 135,
+    "name": "Fire Warriors",
+    "score": 0.9
+  },
+  {
+    "id": 136,
+    "name": "Star Masters",
+    "score": 0.74
+  },
+  {
+    "id": 137,
+    "name": "Wind Lords",
+    "score": 0.88
+  },
+  {
+    "id": 138,
+    "name": "Crystal Dragons",
+    "score": 0.75
+  },
+  {
+    "id": 139,
+    "name": "Thunder Masters",
+    "score": 0.83
+  },
+  {
+    "id": 140,
+    "name": "Storm Warriors",
+    "score": 0.71
+  },
+  {
+    "id": 141,
+    "name": "Ice Knights",
+    "score": 0.89
+  },
+  {
+    "id": 142,
+    "name": "Fire Dragons",
+    "score": 0.76
+  },
+  {
+    "id": 143,
+    "name": "Star Warriors",
+    "score": 0.84
+  },
+  {
+    "id": 144,
+    "name": "Wind Knights",
+    "score": 0.67
+  },
+  {
+    "id": 145,
+    "name": "Crystal Lords",
+    "score": 0.91
+  },
+  {
+    "id": 146,
+    "name": "Thunder Dragons",
+    "score": 0.72
+  },
+  {
+    "id": 147,
+    "name": "Storm Lords",
+    "score": 0.87
+  },
+  {
+    "id": 148,
+    "name": "Ice Warriors",
+    "score": 0.79
+  },
+  {
+    "id": 149,
+    "name": "Fire Masters",
+    "score": 0.85
+  },
+  {
+    "id": 150,
+    "name": "Star Dragons",
+    "score": 0.7
+  },
+  {
+    "id": 151,
+    "name": "Wind Warriors",
+    "score": 0.88
+  },
+  {
+    "id": 152,
+    "name": "Crystal Masters",
+    "score": 0.73
+  },
+  {
+    "id": 153,
+    "name": "Thunder Knights",
+    "score": 0.86
+  },
+  {
+    "id": 154,
+    "name": "Storm Dragons",
+    "score": 0.78
+  },
+  {
+    "id": 155,
+    "name": "Ice Masters",
+    "score": 0.81
+  },
+  {
+    "id": 156,
+    "name": "Fire Lords",
+    "score": 0.69
+  },
+  {
+    "id": 157,
+    "name": "Star Knights",
+    "score": 0.92
+  },
+  {
+    "id": 158,
+    "name": "Wind Dragons",
+    "score": 0.74
+  },
+  {
+    "id": 159,
+    "name": "Crystal Warriors",
+    "score": 0.87
+  },
+  {
+    "id": 160,
+    "name": "Thunder Lords",
+    "score": 0.75
+  },
+  {
+    "id": 161,
+    "name": "Storm Masters",
+    "score": 0.83
+  },
+  {
+    "id": 162,
+    "name": "Ice Dragons",
+    "score": 0.68
+  },
+  {
+    "id": 163,
+    "name": "Fire Knights",
+    "score": 0.9
+  },
+  {
+    "id": 164,
+    "name": "Star Warriors",
+    "score": 0.76
+  },
+  {
+    "id": 165,
+    "name": "Wind Masters",
+    "score": 0.84
+  },
+  {
+    "id": 166,
+    "name": "Crystal Knights",
+    "score": 0.71
+  },
+  {
+    "id": 167,
+    "name": "Thunder Warriors",
+    "score": 0.89
+  },
+  {
+    "id": 168,
+    "name": "Storm Knights",
+    "score": 0.77
+  },
+  {
+    "id": 169,
+    "name": "Ice Lords",
+    "score": 0.85
+  },
+  {
+    "id": 170,
+    "name": "Fire Warriors",
+    "score": 0.72
+  },
+  {
+    "id": 171,
+    "name": "Star Masters",
+    "score": 0.88
+  },
+  {
+    "id": 172,
+    "name": "Wind Lords",
+    "score": 0.79
+  },
+  {
+    "id": 173,
+    "name": "Crystal Dragons",
+    "score": 0.82
+  },
+  {
+    "id": 174,
+    "name": "Thunder Masters",
+    "score": 0.67
+  },
+  {
+    "id": 175,
+    "name": "Storm Warriors",
+    "score": 0.91
+  },
+  {
+    "id": 176,
+    "name": "Ice Knights",
+    "score": 0.73
+  },
+  {
+    "id": 177,
+    "name": "Fire Dragons",
+    "score": 0.86
+  },
+  {
+    "id": 178,
+    "name": "Star Warriors",
+    "score": 0.74
+  },
+  {
+    "id": 179,
+    "name": "Wind Knights",
+    "score": 0.87
+  },
+  {
+    "id": 180,
+    "name": "Crystal Lords",
+    "score": 0.7
+  },
+  {
+    "id": 181,
+    "name": "Thunder Dragons",
+    "score": 0.89
+  },
+  {
+    "id": 182,
+    "name": "Storm Lords",
+    "score": 0.75
+  },
+  {
+    "id": 183,
+    "name": "Ice Warriors",
+    "score": 0.83
+  },
+  {
+    "id": 184,
+    "name": "Fire Masters",
+    "score": 0.68
+  },
+  {
+    "id": 185,
+    "name": "Star Dragons",
+    "score": 0.9
+  },
+  {
+    "id": 186,
+    "name": "Wind Warriors",
+    "score": 0.76
+  },
+  {
+    "id": 187,
+    "name": "Crystal Masters",
+    "score": 0.84
+  },
+  {
+    "id": 188,
+    "name": "Thunder Knights",
+    "score": 0.71
+  },
+  {
+    "id": 189,
+    "name": "Storm Dragons",
+    "score": 0.88
+  },
+  {
+    "id": 190,
+    "name": "Ice Masters",
+    "score": 0.77
+  },
+  {
+    "id": 191,
+    "name": "Fire Lords",
+    "score": 0.85
+  },
+  {
+    "id": 192,
+    "name": "Star Knights",
+    "score": 0.72
+  },
+  {
+    "id": 193,
+    "name": "Wind Dragons",
+    "score": 0.86
+  },
+  {
+    "id": 194,
+    "name": "Crystal Warriors",
+    "score": 0.79
+  },
+  {
+    "id": 195,
+    "name": "Thunder Lords",
+    "score": 0.81
+  },
+  {
+    "id": 196,
+    "name": "Storm Masters",
+    "score": 0.69
+  },
+  {
+    "id": 197,
+    "name": "Ice Dragons",
+    "score": 0.92
+  },
+  {
+    "id": 198,
+    "name": "Fire Knights",
+    "score": 0.73
+  },
+  {
+    "id": 199,
+    "name": "Star Warriors",
+    "score": 0.87
+  },
+  {
+    "id": 200,
+    "name": "Wind Masters",
+    "score": 0.74
+  },
+  {
+    "id": 201,
+    "name": "Crystal Knights",
+    "score": 0.83
+  },
+  {
+    "id": 202,
+    "name": "Thunder Warriors",
+    "score": 0.68
+  },
+  {
+    "id": 203,
+    "name": "Storm Knights",
+    "score": 0.9
+  },
+  {
+    "id": 204,
+    "name": "Ice Lords",
+    "score": 0.75
+  },
+  {
+    "id": 205,
+    "name": "Fire Warriors",
+    "score": 0.84
+  },
+  {
+    "id": 206,
+    "name": "Star Masters",
+    "score": 0.71
+  },
+  {
+    "id": 207,
+    "name": "Wind Lords",
+    "score": 0.89
+  },
+  {
+    "id": 208,
+    "name": "Crystal Dragons",
+    "score": 0.76
+  },
+  {
+    "id": 209,
+    "name": "Thunder Masters",
+    "score": 0.82
+  },
+  {
+    "id": 210,
+    "name": "Storm Warriors",
+    "score": 0.67
+  },
+  {
+    "id": 211,
+    "name": "Ice Knights",
+    "score": 0.91
+  },
+  {
+    "id": 212,
+    "name": "Fire Dragons",
+    "score": 0.72
+  },
+  {
+    "id": 213,
+    "name": "Star Warriors",
+    "score": 0.86
+  },
+  {
+    "id": 214,
+    "name": "Wind Knights",
+    "score": 0.78
+  },
+  {
+    "id": 215,
+    "name": "Crystal Lords",
+    "score": 0.85
+  },
+  {
+    "id": 216,
+    "name": "Thunder Dragons",
+    "score": 0.7
+  },
+  {
+    "id": 217,
+    "name": "Storm Lords",
+    "score": 0.88
+  },
+  {
+    "id": 218,
+    "name": "Ice Warriors",
+    "score": 0.73
+  },
+  {
+    "id": 219,
+    "name": "Fire Masters",
+    "score": 0.87
+  },
+  {
+    "id": 220,
+    "name": "Star Dragons",
+    "score": 0.74
+  }
+]

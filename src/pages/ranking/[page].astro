@@ -1,0 +1,44 @@
+---
+import type { Page } from "astro";
+
+import boardgames from "../../../fixtures/boardgames.json";
+import Pagination from "../../components/pagination/Pagination.astro";
+import Layout from "../../layouts/Layout.astro";
+
+export function getStaticPaths({
+  paginate,
+}: {
+  paginate: <T>(data: readonly T[], args?: { pageSize?: number }) => any;
+}) {
+  const boardgamePages = boardgames.sort((a, b) => b.score - a.score);
+
+  return paginate(boardgamePages, { pageSize: 50 });
+}
+
+const { page }: { page: Page } = Astro.props;
+---
+
+<Layout>
+  <div class="p-8">
+    <main class="prose dark:prose-invert mx-auto">
+      <h1>Play/Pass Leaderboard</h1>
+      <p>
+        Showing {page.start + 1}-{page.end + 1} of {page.total} games (Page {
+          page.currentPage
+        } of {page.lastPage})
+      </p>
+      <ol start={page.start + 1}>
+        {
+          page.data.map((game) => (
+            <li>
+              <a href={`/boardgame/${game.id}`}>{game.name}</a> -{" "}
+              {Math.round(game.score * 100)}%
+            </li>
+          ))
+        }
+      </ol>
+
+      {page.lastPage > 1 && <Pagination page={page} />}
+    </main>
+  </div>
+</Layout>
