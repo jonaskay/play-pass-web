@@ -1,21 +1,46 @@
 ---
-import Layout from '../layouts/Layout.astro';
-import boardGames from '../../fixtures/board-games.json';
+import type { Page } from "astro";
 
-const sortedGames = boardGames.sort((a, b) => b.score - a.score);
+import Layout from "../layouts/Layout.astro";
+import boardgames from "../../fixtures/boardgames.json";
+import Pagination from "../components/pagination/Pagination.astro";
+
+const sortedGames = boardgames.sort((a, b) => b.score - a.score);
+const currentGames = sortedGames.slice(0, 50);
+const page: Page = {
+  data: [],
+  start: 0,
+  end: sortedGames.length - 1,
+  total: sortedGames.length,
+  currentPage: 1,
+  size: 50,
+  lastPage: Math.ceil(sortedGames.length / 50),
+  url: {
+    current: "/",
+    prev: undefined,
+    next: "/ranking/2",
+    first: undefined,
+    last: `/ranking/${Math.ceil(sortedGames.length / 50)}`,
+  },
+};
 ---
 
 <Layout>
-	<div class="p-8">
-		<main class="prose dark:prose-invert mx-auto">
-			<h1>Play/Pass Leaderboard</h1>
-			<ol>
-				{sortedGames.map((game) => (
-					<li>
-						<a href={`/boardgame/${game.id}`}>{game.name}</a> - {Math.round(game.score * 100)}%
-					</li>
-				))}
-			</ol>
-		</main>
-	</div>
+  <div class="p-8">
+    <main class="prose dark:prose-invert mx-auto">
+      <h1>Play/Pass Leaderboard</h1>
+      <ol>
+        {
+          currentGames.map((game) => (
+            <li>
+              <a href={`/boardgame/${game.id}`}>{game.name}</a> -{" "}
+              {Math.round(game.score * 100)}%
+            </li>
+          ))
+        }
+      </ol>
+
+      {sortedGames.length > currentGames.length && <Pagination page={page} />}
+    </main>
+  </div>
 </Layout>
