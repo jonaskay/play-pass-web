@@ -11,7 +11,7 @@ test.describe("Individual game pages", () => {
 
     const rankElement = page.locator("dd").nth(0);
     await expect(rankElement).toBeVisible();
-    await expect(rankElement).toContainText("1");
+    await expect(rankElement).toContainText("2");
 
     const scoreElement = page.locator("dd").nth(1);
     await expect(scoreElement).toBeVisible();

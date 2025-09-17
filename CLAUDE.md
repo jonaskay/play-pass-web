@@ -13,6 +13,7 @@ This is an Astro web application using TypeScript with strict configuration. The
 - `npm run preview` - Preview production build locally
 - `npm run astro check` - Run Astro's type checking and diagnostics
 - `npm run astro ...` - Access other Astro CLI commands
+- `npm run test` - Run Vitest tests
 - `PW_TEST_HTML_REPORT_OPEN='never' npm run test:e2e` - Run Playwright tests
 
 ## Architecture
@@ -20,6 +21,7 @@ This is an Astro web application using TypeScript with strict configuration. The
 **Frontend Framework**: Astro v5+ with TypeScript strict mode enabled
 
 **Project Structure**:
+
 - `src/pages/` - File-based routing (each .astro file becomes a route)
 - `src/layouts/` - Shared page layouts and templates
 - `src/components/` - Reusable Astro components
@@ -27,6 +29,7 @@ This is an Astro web application using TypeScript with strict configuration. The
 - `public/` - Static files served directly
 
 **Key Files**:
+
 - `astro.config.mjs` - Astro configuration (currently minimal default setup)
 - `tsconfig.json` - Extends Astro's strict TypeScript configuration
 - `src/layouts/Layout.astro` - Base HTML layout template
